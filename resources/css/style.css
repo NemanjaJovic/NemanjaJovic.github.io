@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 html {
@@ -55,4 +56,15 @@ a {
 a:hover {
     color: #333;
     background-color: #eee;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+.left {
+    margin-right: 2rem;
+}
+.left-list{
+    margin-bottom: 5px;
 }
