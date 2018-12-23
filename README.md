@@ -1,5 +1,6 @@
-Hello there,
-Welcome to my GitHub repository. I am new to the git, and i am still learning how to use it.
-I will host my projects here, and this repo will serve me as my portfolio.
-The link to this website is nemanjajovic.github.io
-If you have some advices or questions you can contact me on my e-mail: nemanja.jovic195@gmail.com
+<h1>Welcome to my repository</h1>
+<a href="https://nemanjajovic.github.io">Here</a> you can find the complete list of my started
+and finished projects. Some of them are made only by me,
+and some of them are made by me following a course.
+If you have any questions i am available on this email addres
+nemanja.jovic@gmail.com
