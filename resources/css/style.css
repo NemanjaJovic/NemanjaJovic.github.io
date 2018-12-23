@@ -41,12 +41,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.paragraph {
-    color: #eee;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
 a {
     color: #eee;
     text-decoration: none;
@@ -67,4 +61,13 @@ a:hover {
 }
 .left-list{
     margin-bottom: 5px;
+}
+.right-list{
+    margin-bottom: 5px;
+}
+
+.projects {
+    margin-bottom: 1rem;
+    color: #eee;
+    font-size: 2rem;
 }
