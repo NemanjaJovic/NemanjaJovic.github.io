@@ -4,4 +4,3 @@ and finished projects. Some of them are made only by me,
 and some of them are made by me following a course.
 If you have any questions i am available on this email addres
 nemanja.jovic@gmail.com
-Now this is just some test here. Will delete it later on.
