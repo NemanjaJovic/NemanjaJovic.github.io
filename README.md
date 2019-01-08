@@ -3,4 +3,4 @@
 and finished projects. Some of them are made only by me,
 and some of them are made by me following a course.
 If you have any questions you can contact me on this email addres
-nemanja.jovic@gmail.com
+nemanja.jovic195@gmail.com
