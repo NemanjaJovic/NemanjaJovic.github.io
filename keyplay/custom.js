@@ -19,3 +19,5 @@ toggle.addEventListener('mouseenter', () => {
 toggle.addEventListener('mouseleave', () => {
     toggle.style.padding = '20px 40px';
 });
+
+prompt();
