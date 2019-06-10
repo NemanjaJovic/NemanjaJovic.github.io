@@ -20,7 +20,3 @@ toggle.addEventListener('mouseleave', () => {
     toggle.style.padding = '20px 40px';
 });
 
-canvasColor.addEventListener('touchevent', () => {
-    prompt();
-})
-
