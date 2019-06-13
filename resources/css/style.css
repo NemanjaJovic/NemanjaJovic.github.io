@@ -1,73 +1,79 @@
+/* Default settings */
 * {
-    padding: 0;
     margin: 0;
-    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 html {
     font-size: 62.5%;
 }
-
 body {
     font-family: sans-serif;
-    background-color: #eee;
     color: #333;
+    background-color: black;
 }
 
-.header {
-    height: 100vh;
-    background-image: linear-gradient(to right bottom,
-    rgba(0, 110, 255, .8),
-    rgba(4, 0, 255, .8)), 
-    url('/resources/img/background.jpg');
-    background-size: cover;
-    position: relative;
-}
-
-.hero-box {
-    text-align: center;
-    width: 114rem;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.heading {
-    color: #eee;
-    font-size: 3.5rem;
-    font-weight: 100;
-    margin-bottom: 1rem;
-}
-
-a {
-    color: #eee;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: #333;
-}
-a:hover {
-    color: #333;
-    background-color: #eee;
+.page-container {
+    border-top-right-radius: 50%;
+    margin: 2rem;
+    height: 93vh;
+    background-color: rgb(149, 149, 149);
 }
 
 .links {
-    display: flex;
-    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #333;;
+    background-color: aqua;
+    padding: 2rem 4rem;
+    margin-bottom: 0.5rem;
+    transition: all 500ms;
 }
-.left {
-    margin-right: 2rem;
-}
-.left-list{
-    margin-bottom: 5px;
-}
-.right-list{
-    margin-bottom: 5px;
+.links:hover {
+    background-color: rgb(0, 150, 170);
+    color: white;
 }
 
-.projects {
-    margin-bottom: 1rem;
-    color: #eee;
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.heading {
+    color: white;
     font-size: 2rem;
 }
+.heading span {
+    font-size: 5rem;
+    text-decoration: underline;
+    color: aqua;
+}
+
+.left-and-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+}
+.left {
+    height: 15rem;
+    margin-right: 10rem;
+}
+.right {
+    height: 15rem;
+    margin-left: 10rem;
+}
+.title-text {
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
